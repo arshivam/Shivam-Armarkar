@@ -19,8 +19,8 @@ function MobNav() {
           <div className="flex flex-col items-center gap-y-32">
             <Logo/>
             <Nav containerStyles='flex flex-col gap-y-6 items-center' linkStyles='text-2xl'/>
-            <Socials containerStyles='flex gap-x-6 items-center justify-center' iconStyles='text-2xl'/>
           </div>
+          <Socials containerStyles='flex gap-x-6 items-center justify-center' iconStyles='text-2xl'/>
         </div>
       </SheetContent>
     </Sheet>

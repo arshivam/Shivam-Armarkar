@@ -61,3 +61,15 @@
       @apply bg-background text-foreground;
     }
   }
+
+  .h1{
+    @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold
+  }
+
+  .subtitle {
+    @apply text-muted-foreground text-lg mb-8 font-light;
+  }
+
+  .badge{
+    @apply z-10 bg-white w-[210px] h-[68px] dark:backdrop-blur-[44px] shadow-2xl rounded-[10px] flex items-center gap-2 p-4;
+  }

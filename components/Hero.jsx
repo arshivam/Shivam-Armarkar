@@ -16,18 +16,18 @@ const Hero = () => {
         <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center">
             <div className="text-sm text-primary uppercase font-semibold mb-4 tracking-[4px]">Software Developer</div>
             <h1 className="h1 mb-4">Hello, my name is Shivam Armarkar</h1>
-            <p className="subtitle max-w-[490px] mx-auto xl:mx-0"> I'm Full stack software developer with expertise in front-end
+            <p className="subtitle px-4 max-w-[490px] mx-auto xl:mx-0"> I'm Full stack software developer with expertise in front-end
             and back-end development, experienced in leading cross-functional
             teams</p>
             {/* buttons */}
-            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12 ">
+            <div className="flex flex-col px-4  gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12 ">
                 <Link href={'/contact'}>
                 <Button className="gap-x-2">Contact me <Send sixe={18}/></Button>
                 </Link>
                 <Button variant='secondary' className="gap-x-2">Download CV <Download sixe={18}/></Button>
             </div>
             {/* Socials */}
-            <Socials containerStyles="flex gap-x-6 mx-auto xl:mx-0" iconStyles='text-foreground text-[22px] hover:text-primary transition-all'/>
+            <Socials containerStyles="flex px-4  gap-x-6 mx-auto xl:mx-0" iconStyles='text-foreground text-[22px] hover:text-primary transition-all'/>
         </div>
         {/* badge */}
         <div className="hidden xl:flex relative">

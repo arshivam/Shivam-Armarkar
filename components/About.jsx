@@ -128,7 +128,7 @@ const About = () => {
   return (
     <section className="xl:h-[860px] py-12 pb-12 xl:py-24 flex flex-col items-center">
       <div className="container mx-auto">
-        <h2 className="text-4xl mb-8 xl:mb-16 text-center mx-auto">About me</h2>
+        <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">About me</h2>
       </div>
       <div className="flex-1 px-8">
         {/* tabs */}

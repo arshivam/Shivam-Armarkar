@@ -74,10 +74,24 @@
     @apply text-3xl  font-semibold
   }
 
+  .h4{
+    @apply text-2xl  font-semibold
+  }
+
   .subtitle {
     @apply text-muted-foreground text-lg mb-8 font-light;
   }
 
   .badge{
     @apply z-10 bg-white w-[210px] h-[68px] dark:backdrop-blur-[44px] shadow-2xl rounded-[10px] flex items-center gap-2 p-4;
+  }
+
+  .section-title{
+    @apply text-4xl  font-bold leading-none
+  }
+
+  .swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet,
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+    @apply bg-primary
   }

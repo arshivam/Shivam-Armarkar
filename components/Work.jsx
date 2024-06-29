@@ -14,33 +14,41 @@ const projectsData = [
         Image:"/projects/SpotifyClone.png",
         name:'Chat App',
         category:'React js',
-        description:"lorremmmm man jksnd kmnsa",
-        gitHub:"/",
-        link:"/"
+        description:"Developed this application using socket io,Tailwinds CSS, Shadcn ui, Mongo Atlas,Express and Redux-toolkit.This app has feature such as show online user, live chatting, group chat, search user, etc...",
+        gitHub:"https://github.com/arshivam/ChatApp",
+        link:"https://github.com/arshivam/ChatApp"
     },
     {
         Image:"/projects/NetflixClone.png",
-        name:'Netflix UI Clone',
-        category:'Html, Css',
-        description:"lorremmmm man jksnd kmnsa",
-        gitHub:"/",
-        link:"/"
-    },
-    {
-        Image:"/projects/twitterClone.png",
-        name:'Twitter UI Clone',
-        category:'Html, Css',
-        description:"lorremmmm man jksnd kmnsa",
-        gitHub:"/",
-        link:"/"
+        name:'Youtube Clone',
+        category:'React js',
+        description:"Made a project using Tailwind CSS, Redux-toolkit, Axios and Youtube API's used debouncing and caching to enchance user experience.",
+        gitHub:"https://github.com/arshivam/Youtube-Clone-React",
+        link:"https://github.com/arshivam/Youtube-Clone-React"
     },
     {
         Image:"/projects/SpotifyClone.png",
         name:'Spotify Clone',
         category:'Html, Css, Js',
-        description:"lorremmmm man jksnd kmnsa",
-        gitHub:"/",
-        link:"/"
+        description:"Built using html, css, and javascript. This project has feature such as play, pause, play next song, play previous song and much more...",
+        gitHub:"https://github.com/arshivam/Spotify-Clone",
+        link:"https://github.com/arshivam/Spotify-Clone"
+    },
+    {
+        Image:"/projects/NetflixClone.png",
+        name:'Netflix UI Clone',
+        category:'Html, Css',
+        description:"Build this project to enchance my css skill here i have use simple html and css to make a replica of netflix home page.",
+        gitHub:"https://github.com/arshivam/NetFlix_Clone",
+        link:"https://github.com/arshivam/NetFlix_Clone"
+    },
+    {
+        Image:"/projects/twitterClone.png",
+        name:'Twitter UI Clone',
+        category:'Html, Css',
+        description:"Build this project to enchance my css skill here i have use simple html and css to make a replica of Twiiter web page.",
+        gitHub:"https://github.com/arshivam/Twitter-Clone-Tailwind",
+        link:"https://github.com/arshivam/Twitter-Clone-Tailwind"
     },
 ]
 
@@ -56,7 +64,7 @@ const Work = () => {
             </div>
           {/* slider */}
           <div className="xl:max-w-[1000px] xl:absolute top-0 right-0">
-            <Swiper className="h-[480px]" slidesPerView={1} spaceBetween={30}
+            <Swiper className="h-[530px]" slidesPerView={1} spaceBetween={30}
              breakpoints={{
                 640:{
                     slidesPerView:2

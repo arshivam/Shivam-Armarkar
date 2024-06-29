@@ -7,7 +7,7 @@ import { Github , Link2Icon } from "lucide-react";
 
 const ProjectCard = ({project}) => {
   return (
-    <Card className='group overflow-hidden relative'>
+    <Card className='group overflow-hidden h-[490px] relative'>
       <CardHeader className="p-0">
         <div className="relative w-full h-[250px] flex items-center justify-center bg-[#fef9f5] rounded-lg dark:bg-secondary/40">
           <Image className="absolute bottom-0 rounded-lg shadow-2xl" 
@@ -18,10 +18,10 @@ const ProjectCard = ({project}) => {
            priority
           />
           <div className="m-2">
-            <Link className="bg-primary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200" href={project.link}><Link2Icon className="text-white"/></Link>
+            <a target="_blank" className="bg-primary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200" href={project.link}><Link2Icon className="text-white"/></a>
           </div>
           <div>
-            <Link className="bg-primary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200" href={project.gitHub}><Github className="text-white"/></Link>
+            <a target="_blank"  className="bg-primary w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200" href={project.gitHub}><Github className="text-white"/></a>
           </div>
         </div>
       </CardHeader>

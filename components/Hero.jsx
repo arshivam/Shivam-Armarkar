@@ -16,9 +16,8 @@ const Hero = () => {
         <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center">
             <div className="text-sm text-primary uppercase font-semibold mb-4 tracking-[4px]">Software Developer</div>
             <h1 className="h1 mb-4">Hello, my name is Shivam Armarkar</h1>
-            <p className="subtitle px-4 max-w-[490px] mx-auto xl:mx-0"> I'm Full stack software developer with expertise in front-end
-            and back-end development, experienced in leading cross-functional
-            teams</p>
+            <p className="subtitle px-4 max-w-[490px] mx-auto xl:mx-0"> I'm Software developer and a Dotted line manager with expertise in front-end
+            and back-end development, experienced in leading cross-functional teams</p>
             {/* buttons */}
             <div className="flex flex-col px-4  gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12 ">
                 <Link href={'/contact'}>

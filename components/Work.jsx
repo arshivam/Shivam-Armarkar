@@ -59,7 +59,7 @@ const Work = () => {
         <div className="container mx-auto relative mb-12 xl:mb-48">
             <div className="max-w-[350px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
             <h2 className="section-title mb-4">Lastest Projects</h2>
-             <p className="subtitle">Here are some of my projects I recently worked on please have a look or click on all projects button to see all projects I worked on till date.</p>
+             <p className="subtitle">Here are some of my projects I recently worked on. Please have a look or click on <span className="text-primary">All Projects</span> button to see all projects I&apos;ve worked on till date.</p>
              <Link href='/projects'><Button>All Projects</Button></Link>
             </div>
           {/* slider */}

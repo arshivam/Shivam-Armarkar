@@ -152,7 +152,7 @@ const About = () => {
             <TabsContent value="personal">
               <h3 className="h3">Experienced in web development : React</h3>
               <p className="subtitle max-w-xl mx-auto mt-4 xl:mx-0">
-                I&apos;m specialize in crafting intuitive websites with cutting edge
+                I&apos;m specialized in crafting intuitive websites with cutting edge
                 technology and enchancing user experience. I&apos;ve helped some of
                 the client to create applications, portals and solutions.
               </p>

@@ -6,7 +6,7 @@ import { FcGoogle } from "react-icons/fc";
 const Contact = () => {
   return (
     <section className="contact dark:bg-transparent">
-      <div className="container mx-auto flex flex-col items-center md:flex-row h-[81vh] xl:h-[74.1vh]">
+      <div className="container mx-auto flex flex-col items-center md:flex-row min-h-screen xl:min-h-screen">
         <h4 className="h4 max-w-[500px] py-6 text-center xl:text-left">
           &quot;Seeking a skilled craftsman to transform your stunning UI designs
           into a seamlessly functioning reality? Let&apos;s bring your vision to life

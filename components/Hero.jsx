@@ -23,7 +23,9 @@ const Hero = () => {
                 <Link href={'/contact'}>
                 <Button className="gap-x-2">Contact me <Send sixe={18}/></Button>
                 </Link>
+                <a href="/resume/portfolioresume1.pdf" download>
                 <Button variant='secondary' className="gap-x-2">Download CV <Download sixe={18}/></Button>
+                </a>
             </div>
             {/* Socials */}
             <Socials containerStyles="flex px-4  gap-x-6 mx-auto xl:mx-0" iconStyles='text-foreground text-[22px] hover:text-primary transition-all'/>

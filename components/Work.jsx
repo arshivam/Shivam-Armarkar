@@ -11,7 +11,7 @@ import ProjectCard from "./ProjectCard";
 
 const projectsData = [
     {
-        Image:"/projects/SpotifyClone.png",
+        Image:"/projects/chatApp.png",
         name:'Chat App',
         category:'React js',
         description:"Developed this application using socket io,Tailwinds CSS, Shadcn ui, Mongo Atlas,Express and Redux-toolkit.This app has feature such as show online user, live chatting, group chat, search user, etc...",
@@ -19,7 +19,7 @@ const projectsData = [
         link:"https://github.com/arshivam/ChatApp"
     },
     {
-        Image:"/projects/NetflixClone.png",
+        Image:"/projects/youtubeClone.png",
         name:'Youtube Clone',
         category:'React js',
         description:"Made a project using Tailwind CSS, Redux-toolkit, Axios and Youtube API's used debouncing and caching to enchance user experience.",

@@ -8,9 +8,9 @@ const Contact = () => {
     <section className="contact dark:bg-transparent">
       <div className="container mx-auto flex flex-col items-center md:flex-row h-[81vh] xl:h-[74.1vh]">
         <h4 className="h4 max-w-[500px] py-6 text-center xl:text-left">
-          "Seeking a skilled craftsman to transform your stunning UI designs
-          into a seamlessly functioning reality? Let's bring your vision to life
-          with precision and creativity!"
+          &quot;Seeking a skilled craftsman to transform your stunning UI designs
+          into a seamlessly functioning reality? Let&apos;s bring your vision to life
+          with precision and creativity!&quot;
         </h4>
         <div className="w-full h-full p-8 flex flex-col items-center justify-center gap-y-4">
           <h3 className='h3'>Connect with me</h3>

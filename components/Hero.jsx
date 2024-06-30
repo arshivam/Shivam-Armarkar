@@ -29,7 +29,7 @@ const Hero = () => {
                 />
               </span></div>
             <h1 className="h1 mb-4">Hello, my name is Shivam Armarkar</h1>
-            <p className="subtitle max-w-[490px] mx-auto xl:mx-auto"> I'm Software developer and a Dotted line manager with expertise in front-end
+            <p className="subtitle max-w-[490px] mx-auto xl:mx-auto"> I&apos;am Software developer and a Dotted line manager with expertise in front-end
             and back-end development, experienced in leading cross-functional teams</p>
             {/* buttons */}
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-auto mb-12 ">

@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Download, Send } from "lucide-react";
 import {RiBriefcase4Fill, RiArrowDownSLine,RiProfileFill, RiTeamFill, RiTodoFill} from "react-icons/ri"
 import { FaTools } from "react-icons/fa";
+import { Typewriter } from "react-simple-typewriter";
 
 import Socials from "./Socials";
 import Badge from "./Badge";
@@ -14,12 +15,24 @@ const Hero = () => {
     <div className="container mx-auto">
         <div className="flex justify-between gap-x-8">
         <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center">
-            <div className="text-sm text-primary uppercase font-semibold mb-4 tracking-[4px]">Software Developer</div>
+            <div className="text-sm text-primary uppercase font-semibold mb-4 tracking-[4px]"><span style={{ fontWeight: "bold" }}>
+                {/* Style will be inherited from the parent element */}
+                <Typewriter
+                  words={["Software Developer", "Front-End Developer", "Web Developer"]}
+                  loop={false}
+                  cursor
+                  cursorStyle="|"
+                  cursorBlinking={true}
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span></div>
             <h1 className="h1 mb-4">Hello, my name is Shivam Armarkar</h1>
-            <p className="subtitle px-4 max-w-[490px] mx-auto xl:mx-0"> I'm Software developer and a Dotted line manager with expertise in front-end
+            <p className="subtitle max-w-[490px] mx-auto xl:mx-auto"> I'm Software developer and a Dotted line manager with expertise in front-end
             and back-end development, experienced in leading cross-functional teams</p>
             {/* buttons */}
-            <div className="flex flex-col px-4  gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12 ">
+            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-auto mb-12 ">
                 <Link href={'/contact'}>
                 <Button className="gap-x-2">Contact me <Send sixe={18}/></Button>
                 </Link>

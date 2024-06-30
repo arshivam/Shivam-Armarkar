@@ -57,13 +57,13 @@ const Work = () => {
   return (
     <section>
         <div className="container mx-auto relative mb-12 xl:mb-48">
-            <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
+            <div className="max-w-[350px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
             <h2 className="section-title mb-4">Lastest Projects</h2>
-             <p className="subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum beatae numquam culpa non? Voluptatem voluptas rerum ipsam.</p>
+             <p className="subtitle">Here are some of project i recently worked on please have a look or click on all projects button to see all projects i worked on till date.</p>
              <Link href='/projects'><Button>All Projects</Button></Link>
             </div>
           {/* slider */}
-          <div className="xl:max-w-[1000px] xl:absolute top-0 right-0">
+          <div className="xl:max-w-[1000px] xl:absolute top-0 -right-3">
             <Swiper className="h-[530px]" slidesPerView={1} spaceBetween={30}
              breakpoints={{
                 640:{

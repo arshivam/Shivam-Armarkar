@@ -54,12 +54,12 @@ const qualificationsData = [
       {
         university: "Maharashtra State Board",
         degree: "HSC",
-        year: "2016 - 2020",
+        year: "2016",
       },
       {
         university: "Maharashtra State Board",
         degree: "SSC",
-        year: "2016 - 2020",
+        year: "2014",
       },
     ],
   },
@@ -73,7 +73,7 @@ const qualificationsData = [
       },
       {
         company: "Tata Consultancy Services",
-        role: "Associate Software Engineer",
+        role: "Associate Software Developer",
         year: "2022 - 2023",
       },
     ],
@@ -95,6 +95,9 @@ const skillsData = [
       },
       {
         name: "Tailwind CSS, BootStrap CSS",
+      },
+      {
+        name: "Redux, Redux-toolkit"
       },
       {
         name: "MongoDB, PostgreSQL",

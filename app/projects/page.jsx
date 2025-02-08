@@ -5,6 +5,14 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectsData = [
   {
+    Image:"/projects/jobListingPortal.png",
+    name:'Job Portal',
+    category:'React js',
+    description:"Developed this project in one of the interview machine coding round in 1:30 Hrs, Which includes component based development, optimising app, responsive CSS and many more...",
+    gitHub:"https://github.com/arshivam/JobListing_Website",
+    link:"https://job-listing-website-beta.vercel.app/"
+  },
+  {
       Image:"/projects/chatApp.png",
       name:'Chat App',
       category:'React js',

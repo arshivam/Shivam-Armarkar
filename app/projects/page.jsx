@@ -37,7 +37,7 @@ const projectsData = [
       link:"https://github.com/arshivam/NetFlix_Clone"
   },
   {
-      Image:"/projects/twitterClone.png",
+      Image:"/projects/twitterclone.png",
       name:'Twitter UI Clone',
       category:'Html, Css',
       description:"Build this project to enchance my css skill here i have use simple html and css to make a replica of Twiiter web page.",

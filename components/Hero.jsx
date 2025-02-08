@@ -41,7 +41,7 @@ const Hero = () => {
                 </a>
             </div>
             {/* Socials */}
-            <Socials containerStyles="flex px-4  gap-x-6 mx-auto xl:mx-0" iconStyles='text-foreground text-[22px] hover:text-primary transition-all'/>
+            {/* <Socials containerStyles="flex px-4  gap-x-6 mx-auto xl:mx-0" iconStyles='text-foreground text-[22px] hover:text-primary transition-all'/> */}
         </div>
         {/* badge */}
         <div className="hidden xl:flex relative">

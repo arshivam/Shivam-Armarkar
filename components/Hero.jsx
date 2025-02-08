@@ -10,6 +10,17 @@ import Socials from "./Socials";
 import Badge from "./Badge";
 
 const Hero = () => {
+
+
+    const handleDownloadCVClick = () => {
+      const cvUrl = './resume/Shivam_Armarkar_SDE.pdf';
+      const newTab = window.open(cvUrl, '_blank');
+      // Check if the new tab opened successfully
+      if (!newTab) {
+        alert('Please enable pop-ups to view the CV.');
+      }
+  }
+
   return (
     <section className="py-12 xl:py-24 h-[89vh] xl:pt-28 bg-[#fef9f5] dark:bg-transparent" >
     <div className="container mx-auto">
@@ -36,9 +47,9 @@ const Hero = () => {
                 <Link href={'/contact'}>
                 <Button className="gap-x-2">Contact me <Send sixe={18}/></Button>
                 </Link>
-                <a href="/resume/Shivam_Armarkar_SDE.pdf" download>
-                <Button variant='secondary' className="gap-x-2">Download CV <Download sixe={18}/></Button>
-                </a>
+                {/* <a href="/resume/Shivam_Armarkar_SDE.pdf" download> */}
+                <Button onClick={handleDownloadCVClick} variant='secondary' className="gap-x-2">Download CV <Download sixe={18}/></Button>
+                {/* </a> */}
             </div>
             {/* Socials */}
             {/* <Socials containerStyles="flex px-4  gap-x-6 mx-auto xl:mx-0" iconStyles='text-foreground text-[22px] hover:text-primary transition-all'/> */}

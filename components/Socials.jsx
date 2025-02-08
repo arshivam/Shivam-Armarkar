@@ -14,7 +14,7 @@ const icons = [
     name: <RiGithubFill />,
   },
   {
-    path: "https://www.linkedin.com/in/shivam-armarkar-9b957b192/",
+    path: "https://www.linkedin.com/in/shivam-armarkar/",
     name: <RiLinkedinBoxFill />,
   },
   {

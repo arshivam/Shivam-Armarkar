@@ -36,7 +36,7 @@ const Hero = () => {
                 <Link href={'/contact'}>
                 <Button className="gap-x-2">Contact me <Send sixe={18}/></Button>
                 </Link>
-                <a href="/resume/portfolioresume1.pdf" download>
+                <a href="/resume/Shivam_Armarkar_SDE.pdf" download>
                 <Button variant='secondary' className="gap-x-2">Download CV <Download sixe={18}/></Button>
                 </a>
             </div>
